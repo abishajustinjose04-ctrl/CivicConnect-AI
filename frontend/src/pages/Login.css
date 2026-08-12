@@ -1,0 +1,404 @@
+/* =========================================================
+   CIVICCONNECT - LOGIN PAGE
+   ONLY LOGIN PAGE STYLES
+   ========================================================= */
+
+main.auth-page {
+  width: 100% !important;
+  min-height: 100vh !important;
+  margin: 0 !important;
+  padding: 40px 20px !important;
+  box-sizing: border-box !important;
+
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+
+  background: #f3f6fa !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+
+/* ================= CARD ================= */
+
+.auth-page .auth-card {
+  width: 100% !important;
+  max-width: 460px !important;
+
+  margin: 0 auto !important;
+  padding: 40px !important;
+  box-sizing: border-box !important;
+
+  background: #ffffff !important;
+  border: 1px solid #dfe5ec !important;
+  border-radius: 14px !important;
+
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.12) !important;
+}
+
+
+/* ================= HEADER ================= */
+
+.auth-page .auth-header {
+  width: 100% !important;
+  margin: 0 0 25px 0 !important;
+  padding: 0 !important;
+
+  text-align: center !important;
+}
+
+.auth-page .auth-logo {
+  width: 58px !important;
+  height: 58px !important;
+
+  margin: 0 auto 12px auto !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  border-radius: 50% !important;
+
+  background: #123b68 !important;
+
+  font-size: 27px !important;
+}
+
+.auth-page .auth-header > span {
+  display: block !important;
+
+  margin: 0 0 8px 0 !important;
+
+  color: #1c5d95 !important;
+
+  font-size: 12px !important;
+  font-weight: 700 !important;
+
+  letter-spacing: 2px !important;
+}
+
+.auth-page .auth-header h1 {
+  margin: 0 !important;
+  padding: 0 !important;
+
+  color: #172b4d !important;
+
+  font-size: 28px !important;
+  line-height: 1.3 !important;
+  font-weight: 700 !important;
+}
+
+.auth-page .auth-header p {
+  margin: 10px 0 0 0 !important;
+  padding: 0 !important;
+
+  color: #68758a !important;
+
+  font-size: 14px !important;
+  line-height: 1.6 !important;
+}
+
+
+/* ================= MESSAGES ================= */
+
+.auth-page .auth-message {
+  width: 100% !important;
+
+  margin: 0 0 18px 0 !important;
+  padding: 12px 14px !important;
+
+  box-sizing: border-box !important;
+
+  border-radius: 8px !important;
+
+  font-size: 14px !important;
+  line-height: 1.4 !important;
+}
+
+.auth-page .error-message {
+  color: #b42318 !important;
+  background: #fff1f1 !important;
+  border: 1px solid #f0c4c4 !important;
+}
+
+.auth-page .success-message {
+  color: #18733b !important;
+  background: #eefaf2 !important;
+  border: 1px solid #bde3ca !important;
+}
+
+
+/* ================= FORM ================= */
+
+.auth-page .auth-form {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.auth-page .form-group {
+  width: 100% !important;
+
+  margin: 0 0 18px 0 !important;
+  padding: 0 !important;
+}
+
+.auth-page .form-group label {
+  display: block !important;
+
+  margin: 0 0 7px 0 !important;
+
+  color: #26364d !important;
+
+  font-size: 14px !important;
+  line-height: 1.4 !important;
+  font-weight: 600 !important;
+}
+
+.auth-page .form-group input {
+  display: block !important;
+
+  width: 100% !important;
+  height: 46px !important;
+
+  margin: 0 !important;
+  padding: 0 13px !important;
+
+  box-sizing: border-box !important;
+
+  border: 1px solid #cfd7e3 !important;
+  border-radius: 8px !important;
+
+  background: #ffffff !important;
+
+  color: #172b4d !important;
+
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 14px !important;
+
+  outline: none !important;
+}
+
+.auth-page .form-group input:focus {
+  border-color: #1c5d95 !important;
+
+  box-shadow: 0 0 0 3px rgba(28, 93, 149, 0.12) !important;
+}
+
+.auth-page .form-group input::placeholder {
+  color: #9aa6b5 !important;
+}
+
+
+/* ================= OPTIONS ================= */
+
+.auth-page .auth-options {
+  width: 100% !important;
+
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+
+  margin: 2px 0 20px 0 !important;
+  padding: 0 !important;
+
+  gap: 10px !important;
+}
+
+.auth-page .remember-option {
+  display: flex !important;
+  align-items: center !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  color: #5f6d80 !important;
+
+  font-size: 13px !important;
+
+  cursor: pointer !important;
+}
+
+.auth-page .remember-option input {
+  width: 15px !important;
+  height: 15px !important;
+
+  margin: 0 7px 0 0 !important;
+}
+
+.auth-page .remember-option span {
+  font-size: 13px !important;
+}
+
+.auth-page .forgot-password {
+  margin: 0 !important;
+  padding: 0 !important;
+
+  border: none !important;
+
+  background: transparent !important;
+
+  color: #1c5d95 !important;
+
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 13px !important;
+
+  cursor: pointer !important;
+}
+
+
+/* ================= SIGN IN ================= */
+
+.auth-page .auth-submit {
+  display: block !important;
+
+  width: 100% !important;
+  height: 47px !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  border: none !important;
+  border-radius: 8px !important;
+
+  background: #123b68 !important;
+  color: #ffffff !important;
+
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+
+  cursor: pointer !important;
+}
+
+.auth-page .auth-submit:hover {
+  background: #0d3157 !important;
+}
+
+.auth-page .auth-submit:disabled {
+  opacity: 0.65 !important;
+  cursor: not-allowed !important;
+}
+
+
+/* ================= OR ================= */
+
+.auth-page .auth-divider {
+  width: 100% !important;
+
+  display: flex !important;
+  align-items: center !important;
+
+  gap: 12px !important;
+
+  margin: 25px 0 20px 0 !important;
+  padding: 0 !important;
+
+  color: #9aa6b5 !important;
+
+  font-size: 12px !important;
+}
+
+.auth-page .auth-divider::before,
+.auth-page .auth-divider::after {
+  content: "" !important;
+
+  flex: 1 !important;
+
+  height: 1px !important;
+
+  background: #e1e6ed !important;
+}
+
+.auth-page .auth-divider span {
+  font-size: 12px !important;
+  font-weight: 600 !important;
+}
+
+
+/* ================= REGISTER ================= */
+
+.auth-page .auth-register {
+  width: 100% !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  text-align: center !important;
+}
+
+.auth-page .auth-register p {
+  margin: 0 0 8px 0 !important;
+  padding: 0 !important;
+
+  color: #68758a !important;
+
+  font-size: 13px !important;
+}
+
+.auth-page .auth-register a {
+  color: #1c5d95 !important;
+
+  font-size: 14px !important;
+  font-weight: 700 !important;
+
+  text-decoration: none !important;
+}
+
+.auth-page .auth-register a:hover {
+  text-decoration: underline !important;
+}
+
+
+/* ================= BACK HOME ================= */
+
+.auth-page .auth-footer {
+  width: 100% !important;
+
+  margin: 24px 0 0 0 !important;
+  padding: 18px 0 0 0 !important;
+
+  border-top: 1px solid #e6eaf0 !important;
+
+  text-align: center !important;
+}
+
+.auth-page .auth-footer a {
+  color: #68758a !important;
+
+  font-size: 13px !important;
+
+  text-decoration: none !important;
+}
+
+.auth-page .auth-footer a:hover {
+  color: #1c5d95 !important;
+}
+
+
+/* ================= SMALL SCREEN ================= */
+
+@media (max-width: 600px) {
+  main.auth-page {
+    padding: 25px 15px !important;
+  }
+
+  .auth-page .auth-card {
+    padding: 30px 24px !important;
+  }
+
+  .auth-page .auth-header h1 {
+    font-size: 25px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .auth-page .auth-card {
+    padding: 25px 18px !important;
+  }
+
+  .auth-page .auth-options {
+    align-items: flex-start !important;
+    flex-direction: column !important;
+  }
+}

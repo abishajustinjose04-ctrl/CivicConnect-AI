@@ -1,0 +1,369 @@
+
+.admin-login-page {
+  min-height: 100vh;
+  display: flex;
+  background: #f4f7fb;
+}
+
+
+/* LEFT SIDE */
+
+.admin-login-left {
+  width: 52%;
+  min-height: 100vh;
+  background: linear-gradient(
+    145deg,
+    #0b3d62,
+    #075985,
+    #0f766e
+  );
+
+  color: white;
+
+  padding: 70px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.admin-brand {
+  margin-bottom: 80px;
+}
+
+
+.admin-shield {
+  width: 70px;
+  height: 70px;
+
+  border-radius: 18px;
+
+  background: rgba(255,255,255,0.15);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 35px;
+
+  margin-bottom: 20px;
+}
+
+
+.admin-brand h1 {
+  font-size: 34px;
+  letter-spacing: 3px;
+  margin: 0;
+}
+
+
+.admin-brand p {
+  margin-top: 10px;
+  font-size: 16px;
+  opacity: 0.85;
+}
+
+
+.admin-welcome {
+  max-width: 570px;
+}
+
+
+.admin-welcome h2 {
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+
+
+.admin-welcome p {
+  font-size: 17px;
+  line-height: 1.7;
+  opacity: 0.9;
+}
+
+
+.admin-features {
+  margin-top: 35px;
+  display: grid;
+  gap: 18px;
+}
+
+
+.admin-features div {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+
+  font-size: 16px;
+}
+
+
+.admin-features span {
+  width: 25px;
+  height: 25px;
+
+  border-radius: 50%;
+
+  background: rgba(255,255,255,0.18);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* RIGHT SIDE */
+
+.admin-login-right {
+  width: 48%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 40px;
+}
+
+
+.admin-login-box {
+  width: 100%;
+  max-width: 460px;
+
+  background: white;
+
+  padding: 45px;
+
+  border-radius: 18px;
+
+  box-shadow:
+    0 15px 45px rgba(0,0,0,0.10);
+}
+
+
+.admin-icon {
+  width: 65px;
+  height: 65px;
+
+  background: #e8f1f7;
+
+  border-radius: 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 30px;
+
+  margin-bottom: 20px;
+}
+
+
+.admin-login-box h2 {
+  font-size: 30px;
+
+  margin: 0 0 8px;
+
+  color: #12344d;
+}
+
+
+.admin-subtitle {
+  color: #667788;
+
+  line-height: 1.5;
+
+  margin-bottom: 30px;
+}
+
+
+/* ERROR */
+
+.admin-error {
+  background: #fff0f0;
+
+  border: 1px solid #ffcaca;
+
+  color: #c0392b;
+
+  padding: 12px 15px;
+
+  border-radius: 8px;
+
+  margin-bottom: 20px;
+
+  font-size: 14px;
+}
+
+
+/* FORM */
+
+.admin-form-group {
+  margin-bottom: 22px;
+}
+
+
+.admin-form-group label {
+  display: block;
+
+  margin-bottom: 8px;
+
+  font-weight: 600;
+
+  color: #34495e;
+}
+
+
+.admin-form-group input {
+  width: 100%;
+
+  box-sizing: border-box;
+
+  padding: 14px 15px;
+
+  border: 1px solid #d5dde5;
+
+  border-radius: 9px;
+
+  font-size: 15px;
+
+  outline: none;
+
+  transition: 0.2s;
+}
+
+
+.admin-form-group input:focus {
+  border-color: #0b6e99;
+
+  box-shadow:
+    0 0 0 3px rgba(11,110,153,0.10);
+}
+
+
+/* BUTTON */
+
+.admin-login-button {
+  width: 100%;
+
+  padding: 15px;
+
+  border: none;
+
+  border-radius: 9px;
+
+  background: #0b5d83;
+
+  color: white;
+
+  font-size: 16px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+
+.admin-login-button:hover {
+  background: #084b6a;
+}
+
+
+.admin-login-button:disabled {
+  opacity: 0.65;
+
+  cursor: not-allowed;
+}
+
+
+/* SECURITY */
+
+.admin-security {
+  text-align: center;
+
+  margin-top: 25px;
+
+  font-size: 13px;
+
+  color: #667788;
+}
+
+
+/* LINKS */
+
+.admin-back {
+  text-align: center;
+
+  margin-top: 25px;
+}
+
+
+.admin-back a,
+.citizen-login-link a {
+  color: #0b5d83;
+
+  text-decoration: none;
+
+  font-weight: 600;
+}
+
+
+.admin-back a:hover,
+.citizen-login-link a:hover {
+  text-decoration: underline;
+}
+
+
+.citizen-login-link {
+  text-align: center;
+
+  margin-top: 18px;
+
+  color: #667788;
+
+  font-size: 14px;
+}
+
+
+.citizen-login-link a {
+  margin-left: 5px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 900px) {
+
+  .admin-login-page {
+    flex-direction: column;
+  }
+
+  .admin-login-left {
+    width: 100%;
+    min-height: auto;
+
+    padding: 45px 30px;
+  }
+
+  .admin-brand {
+    margin-bottom: 40px;
+  }
+
+  .admin-welcome h2 {
+    font-size: 30px;
+  }
+
+  .admin-login-right {
+    width: 100%;
+
+    padding: 30px 20px;
+  }
+
+  .admin-login-box {
+    padding: 30px;
+  }
+
+}
+
